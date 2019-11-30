@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 class About extends Component {
     render(){ 
         return(
-            <section class="page-section bg-primary text-white mb-0" id="about" >
-                <div className="container  d-flex align-items-center flex-column" >
+            <section class="page-section masthead bg-primary text-white mb-0" id="about" >
+                <div className="container  d-flex align-items-center flex-column"style = {{backgroundColor:'#85144b', width:"100%", paddingTop:"30px"}} >
                     <h2 className="page-section-heading text-center text-uppercase" style = {{padding:"20px"}}>About</h2>
                     <div className="row divider-custom divider-light">
                         <div className="divider-custom-line"></div>

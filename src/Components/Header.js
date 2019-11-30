@@ -4,7 +4,7 @@ import fashion from '../asset/img/fashion.svg'
 class Header extends Component {
     render(){
         return(
-            <header className="masthead text-white text-center">
+            <header className="masthead bg-primary text-white text-center">
                 <div className="container d-flex align-items-center flex-column " style = {{backgroundColor:'#85144b', width:"100%", paddingTop:"30px"}}>
                     <img className="masthead-avatar mb-5" src={fashion} alt="fashion"/>
                     <h1 className="masthead-heading text-uppercase mb-0">Glory Fashion Designs</h1>
